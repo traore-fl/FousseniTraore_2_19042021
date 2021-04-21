@@ -463,3 +463,32 @@ input {
 .Activite5 {
   margin: 0px 0px 92px;
 }
+/* PARAMETRES DU FOOTER */
+
+footer {
+  background-color: #f2f2f2;
+}
+
+.blockFooter {
+  display: flex;
+  max-width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.interieurblockFooter {
+  width: 40%;
+}
+
+.footerTitre {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.lignesFooter {
+  color: black;
+  display: block;
+  margin: 15px 0;
+  font-weight: 500;
+}
