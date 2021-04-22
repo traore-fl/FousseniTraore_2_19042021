@@ -1,4 +1,4 @@
-/* POLICE */
+/* Police */
 
 @font-face {
   font-family: "Raleway";
@@ -25,7 +25,7 @@ p {
   font-family: "Raleway";
 }
 
-/* PAGE */
+/* Page */
 
 #blocpage {
   margin: auto;
@@ -224,14 +224,14 @@ input {
 .infotext {
   padding-left: 10px;
 }
-/* PARAMETRES HEBERGEMENT ET POPULAIRES */
+/* Hébergements à Marseille et Les plus populaires */
 
 .hebergementetpop {
   display: flex;
   margin: 25px 0 50px;
 }
 
-/* PARAMETRES HEBERGEMENTS */
+/* Hébergements à Marseille */
 
 #Hebergements {
   background-color: #f2f2f2;
@@ -258,7 +258,7 @@ input {
   /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -ms-transition: all 1s ease; /* Edge */
   -o-transition: all 1s ease; /* Opera */
   transition: all 1s ease;
 }
@@ -266,7 +266,7 @@ input {
 .hotel:hover {
   -webkit-transform: scale(1.05); /* Safari et Chrome */
   -moz-transform: scale(1.05); /* Firefox */
-  -ms-transform: scale(1.05); /* Internet Explorer 9 */
+  -ms-transform: scale(1.05); /* Edge */
   -o-transform: scale(1.05); /* Opera */
   transform: scale(1.05);
 }
@@ -302,7 +302,7 @@ input {
   color: black;
   padding-left: 8px;
 }
-/*  HEBERGEMENTS POPULAIRES */
+/*  Les plus populaires */
 
 #pluspopulaires {
   background-color: #f2f2f2;
@@ -381,7 +381,7 @@ input {
   margin: 30px;
 }
 
-/* PARAMETRES DE LA SECTION ACTIVITE */
+/* Activités à Marseille */
 
 #Activite {
   width: 80%;
@@ -463,7 +463,7 @@ input {
 .Activite5 {
   margin: 0px 0px 92px;
 }
-/* PARAMETRES DU FOOTER */
+/* FOOTER */
 
 footer {
   background-color: #f2f2f2;
@@ -492,10 +492,11 @@ footer {
   margin: 15px 0;
   font-weight: 500;
 }
-/*RESPONSIVE MOBILES*/
+
+/*VERSION MOBILES*/
 
 @media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-  /* PARAMETRES GENERAUX */
+
 
   h2 {
     /*font-family: 'Raleway-Semibold';*/
@@ -524,7 +525,7 @@ footer {
     margin-right: 0;
   }
 
-  /* HEADER MENU */
+  /* HEADER/ Menu */
 
   .inscrire {
     position: ABSOLUTE;
@@ -555,7 +556,7 @@ footer {
     padding-bottom: 5px;
   }
 
-  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+  /*  Display bouton loupe */
 
   .loupelogo i {
     display: inline;
@@ -571,7 +572,7 @@ footer {
     display: none;
   }
 
-  /* FILTRES */
+  /* Filtres */
 
   .filtres {
     display: grid;
@@ -592,14 +593,14 @@ footer {
     width: 35%;
   }
 
-  /* HEBERGEMENTS ET POPULAIRES */
+  /* Hébergements à Marseille et Les plus populaires */
 
   .hebergementetpop {
     display: flex;
     flex-direction: column;
   }
 
-  /* PARAMETRES HEBERGEMENTS */
+  /* Hébergements à Marseille */
 
   #Hebergements {
     width: 100%;
@@ -628,7 +629,7 @@ footer {
     font-size: 14px;
   }
 
-  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+  /* Les plus populaires */
 
   #pluspopulaires {
     width: 100%;
@@ -638,7 +639,7 @@ footer {
     display: grid;
   }
 
-  /* PARAMETRES ACTIVITES */
+  /* Activités à Marseille */
 
   .containerActivites {
     display: grid;
@@ -671,7 +672,7 @@ footer {
     margin-top: -12px;
   }
 
-  /* FOOTER*/
+  /* FOOTER */
 
   .blockFooter {
     display: grid;
@@ -681,16 +682,17 @@ footer {
     width: auto;
   }
 }
-/* RESPONSIVE TABLETTE */
+
+/* VERSION TABLETTE */
 
 @media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
-  /* TEXTE DU HEADER */
+  
   .subtext {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  /* FORMULAIRE DE RECHERCHE */
+  /* Formulaire de Recherche */
 
   .logosearch {
     position: relative;
@@ -700,7 +702,7 @@ footer {
     margin-top: -15px;
   }
 
-  /* FILTRES */
+  /* Filtres */
   .filtres {
     align-items: center;
     width: 100%;
@@ -719,7 +721,7 @@ footer {
     position: relative;
   }
 
-  /* HEBERGEMENTS ET POPULAIRES */
+  /* Hébergements à Marseille et Les plus populaires */
 
   .hebergementetpop {
     margin: 25px 0 50px;
@@ -732,7 +734,7 @@ footer {
     padding-bottom: 5px;
   }
 
-  /* PARAMETRES HEBERGEMENTS */
+  /* Hébergements à Marseille */
 
   #Hebergements {
     width: 100%;
@@ -743,7 +745,7 @@ footer {
     border-radius: 0;
   }
 
-  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+  /* Les plus populaires */
 
   #pluspopulaires {
     width: 100%;
