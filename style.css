@@ -681,3 +681,85 @@ footer {
     width: auto;
   }
 }
+/* RESPONSIVE TABLETTE */
+
+@media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
+  /* TEXTE DU HEADER */
+  .subtext {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* FORMULAIRE DE RECHERCHE */
+
+  .logosearch {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    margin-top: -15px;
+  }
+
+  /* FILTRES */
+  .filtres {
+    align-items: center;
+    width: 100%;
+  }
+
+  .titre {
+    font-size: 12px;
+  }
+
+  .barreFiltre {
+    width: 18%;
+  }
+
+  .info {
+    align-items: CENTER;
+    position: relative;
+  }
+
+  /* HEBERGEMENTS ET POPULAIRES */
+
+  .hebergementetpop {
+    margin: 25px 0 50px;
+    display: FLEX;
+    flex-direction: column;
+  }
+
+  .titresection {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES HEBERGEMENTS */
+
+  #Hebergements {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /*centré dans l'élément parent*/
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+
+  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+  #pluspopulaires {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+  }
+
+  footer {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
+  #pluspopulaires {
+    display: grid;
+  }
+}
