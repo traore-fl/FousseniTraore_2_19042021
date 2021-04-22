@@ -492,3 +492,192 @@ footer {
   margin: 15px 0;
   font-weight: 500;
 }
+/*RESPONSIVE MOBILES*/
+
+@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+  /* PARAMETRES GENERAUX */
+
+  h2 {
+    /*font-family: 'Raleway-Semibold';*/
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  H3 {
+    font-size: 16px;
+  }
+
+  /* HEADER */
+
+  header {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+  .headernav {
+    margin-right: 0;
+  }
+
+  /* HEADER MENU */
+
+  .inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  nav ul {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  header ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+  }
+
+  header ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+
+  .loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* FILTRES */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
+
+  /* HEBERGEMENTS ET POPULAIRES */
+
+  .hebergementetpop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* PARAMETRES HEBERGEMENTS */
+
+  #Hebergements {
+    width: 100%;
+    background-color: white;
+    order: 2;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+  }
+
+  .hebergementmarseille {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotel {
+    width: 95%;
+    height: 210px;
+    font-size: 14px;
+  }
+
+  .hotelpop {
+    width: 95%;
+    padding: 5px;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  /* PARAMETRES HEBERGEMENTS POPULAIRES */
+
+  #pluspopulaires {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    order: 1;
+    display: grid;
+  }
+
+  /* PARAMETRES ACTIVITES */
+
+  .containerActivites {
+    display: grid;
+    height: auto;
+    margin-bottom: 25px;
+    justify-content: normal;
+    -moz-margin-start: -60px;
+  }
+
+  .blocActivite {
+    width: auto;
+  }
+
+  .Activite img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .Activite {
+    margin-bottom: 30%;
+    height: 70px;
+    -moz-margin-start: 62px;
+  }
+
+  .nomactivite {
+    padding: 8px 0px 5px 20px;
+    border-radius: 0 0 1.25rem 1.25rem;
+    border-color: transparent;
+    box-shadow: 0 5px 16px #0000002e;
+    margin-top: -12px;
+  }
+
+  /* FOOTER*/
+
+  .blockFooter {
+    display: grid;
+  }
+
+  .interieurblockFooter {
+    width: auto;
+  }
+}
