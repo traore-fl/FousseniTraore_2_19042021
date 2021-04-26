@@ -1,21 +1,10 @@
 /* Police */
 
-@font-face {
-  font-family: "Raleway";
-  src: url("static/Raleway-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Raleway-thin";
-  src: url("static/Raleway-Thin.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 a {
   font-family: "Raleway";
   font-weight: bold;
@@ -309,7 +298,7 @@ input {
   border-radius: 15px;
   width: 32%;
   padding: 20px;
-  display: flex;
+  display: grid;
 }
 
 .hebergementspop {
@@ -757,11 +746,5 @@ footer {
 
   footer {
     border-radius: 0;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1600px) /* GRAND ECRAN */ {
-  #pluspopulaires {
-    display: grid;
   }
 }
