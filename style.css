@@ -181,7 +181,7 @@ input {
 .imagefiltre {
   padding: 15px 15px;
   border-radius: 50%;
-  background-color: #d9d9d9;
+  background-color: #deebff;
   cursor: pointer;
 }
 
@@ -517,7 +517,7 @@ footer {
   /* HEADER/ Menu */
 
   .inscrire {
-    position: ABSOLUTE;
+    position: absolute;
     top: 29px;
     right: 30px;
   }
@@ -706,7 +706,7 @@ footer {
   }
 
   .info {
-    align-items: CENTER;
+    align-items: center;
     position: relative;
   }
 
@@ -714,7 +714,7 @@ footer {
 
   .hebergementetpop {
     margin: 25px 0 50px;
-    display: FLEX;
+    display: flex;
     flex-direction: column;
   }
 
