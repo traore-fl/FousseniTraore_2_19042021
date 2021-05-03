@@ -17,8 +17,8 @@ p {
 /* Page */
 
 #blocpage {
-  margin: auto;
   width: 98%;
+  margin: auto; 
 }
 
 /* HEADER */
@@ -217,6 +217,7 @@ input {
 
 .hebergementetpop {
   display: flex;
+  flex-direction: row;
   margin: 25px 0 50px;
 }
 
@@ -282,7 +283,7 @@ input {
 
 .afficherplus {
   color: black;
-  padding-left: 8px;
+  padding-right: 8px;
 }
 /*  Les plus populaires */
 
@@ -315,7 +316,7 @@ input {
 .hotelpop:hover {
   /* L'image est zoomé au survol */
 
-  transform: rotate(360deg);
+  transform: scale(1.15);
 }
 
 .popimage {
