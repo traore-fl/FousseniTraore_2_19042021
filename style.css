@@ -646,6 +646,7 @@ footer {
 
   .blockFooter {
     display: flex;
+    flex-direction: column;
   }
 
   .interieurblockFooter {
