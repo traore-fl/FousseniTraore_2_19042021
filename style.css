@@ -226,7 +226,7 @@ input {
 #Hebergements {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 62%;
+  flex: 70%;
   padding: 20px;
   margin: 0 25px 0 0;
 }
@@ -237,8 +237,7 @@ input {
 }
 
 .hotel {
-  width: 30%;
-  width: calc(33.3% - 10px);
+  flex: 30%;
   background: white;
   border-radius: 20px;
   padding: 5px;
@@ -288,11 +287,12 @@ input {
 /*  Les plus populaires */
 
 #pluspopulaires {
+  display: flex;
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 32%;
+  flex: 30%;
   padding: 20px;
-  display: grid;
+  flex-direction: column;
 }
 
 .hebergementspop {
@@ -385,9 +385,7 @@ input {
 }
 
 .Activite:hover {
-  /* L'image est zoomé au survol */
-
-  
+  /* L'image est zoomé au survol */ 
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -489,7 +487,7 @@ footer {
   }
 
   .containerheader {
-    display: grid;
+    display: flex;
     padding-top: 5px;
   }
 
@@ -547,7 +545,7 @@ footer {
   /* Filtres */
 
   .filtres {
-    display: grid;
+    display: flex;
   }
 
   .titrefiltres {
@@ -608,13 +606,13 @@ footer {
     margin: 0;
     padding: 0;
     order: 1;
-    display: grid;
+    display: flex;
   }
 
   /* Activités à Marseille */
 
   .containerActivites {
-    display: grid;
+    display: flex;
     height: auto;
     margin-bottom: 25px;
     justify-content: normal;
@@ -647,7 +645,7 @@ footer {
   /* FOOTER */
 
   .blockFooter {
-    display: grid;
+    display: flex;
   }
 
   .interieurblockFooter {
@@ -724,7 +722,7 @@ footer {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    display: grid;
+    display: flex;
   }
 
   footer {
