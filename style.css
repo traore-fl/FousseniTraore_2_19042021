@@ -465,7 +465,7 @@ footer {
 
 /*VERSION MOBILES*/
 
-@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+@media (min-width: 280px) and (max-width: 767px) /* SMARTPHONES */ {
 
 
   h2 {
@@ -492,15 +492,20 @@ footer {
   }
 
   .headernav {
+    display: flex;
     margin-right: 0;
   }
 
-  /* HEADER/ Menu */
+  /* HEADER/ Menu */  
 
+.heberacti{
+  padding-top: 30px;  
+  }
   .inscrire {
     position: absolute;
     top: 29px;
     right: 30px;
+    order: 1;
   }
 
   nav {
@@ -535,7 +540,7 @@ footer {
     padding: 18px;
     border-radius: 18px;
     position: relative;
-    right: 52px;
+    /*   right: 52px; */
   }
 
   .boutonderecherche {
@@ -547,6 +552,7 @@ footer {
   .filtres {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .titrefiltres {
