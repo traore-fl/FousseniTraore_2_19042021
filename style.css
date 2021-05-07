@@ -499,10 +499,12 @@ footer {
   /* HEADER/ Menu */  
 
 .heberacti{
-  padding-top: 30px;  
+  display: flex;
+  padding-top: 150px; 
+  order: 1; 
   }
   .inscrire {
-    position: absolute;
+    display: flex;
     top: 29px;
     right: 30px;
     order: 1;
