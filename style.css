@@ -1,6 +1,6 @@
-/* Police */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 
 h1,
 h2,
@@ -465,11 +465,10 @@ footer {
 
 /*VERSION MOBILES*/
 
-@media (min-width: 280px) and (max-width: 767px) /* SMARTPHONES */ {
+@media screen and (min-width: 280px) and (max-width: 767px) /* SMARTPHONES */ {
 
 
   h2 {
-    /*font-family: 'Raleway-Semibold';*/
     font-size: 20px;
     font-weight: bold;
   }
@@ -491,12 +490,14 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .headernav {
     display: flex;
     align-items: center;
     margin-top: -35px;
+    margin-bottom: 20px;
   }
 
   /* HEADER/ Menu */  
@@ -505,6 +506,7 @@ footer {
   display: flex;
   margin-left: 10px;
   margin-bottom: -60px; 
+  margin-right: -130px;
   order: 1; 
   }
   .inscrire {
@@ -565,14 +567,14 @@ footer {
   }
 
   .barreFiltre {
-    width: 50%;
+    flex: 50%;
     margin-bottom: 10px;
   }
 
   .fam {
     position: absolute;
     margin: 34px 0 0 55%;
-    width: 35%;
+    width: 40%;
   }
 
   /* Hébergements à Marseille et Les plus populaires */
@@ -588,7 +590,6 @@ footer {
     width: 100%;
     background-color: white;
     order: 2;
-    width: 100%;
     margin: 0%;
     padding: 0;
   }
@@ -627,12 +628,12 @@ footer {
     display: flex;
     height: auto;
     margin-bottom: 25px;
-    justify-content: normal;
-    -moz-margin-start: -60px;
+    justify-content:center; 
   }
 
   .blocActivite {
-    width: auto;
+    width: 100%;
+    margin-top: 15px;
   }
 
   .Activite img {
@@ -642,8 +643,7 @@ footer {
 
   .Activite {
     margin-bottom: 30%;
-    height: 70px;
-    -moz-margin-start: 62px;
+    height: 70px; 
   }
 
   .nomactivite {
@@ -668,12 +668,14 @@ footer {
 
 /* VERSION TABLETTE */
 
-@media (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
+@media screen and (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
   
   .subtext {
-    text-align: center;
+    display:flex;
+    flex-direction: column;
     margin-bottom: 15px;
   }
+    
 
   /* Formulaire de Recherche */
 
@@ -683,6 +685,7 @@ footer {
     transform: translateX(-50%);
     margin-bottom: 5px;
     margin-top: -15px;
+    display: flex;
   }
 
   /* Filtres */
@@ -720,10 +723,10 @@ footer {
   /* Hébergements à Marseille */
 
   #Hebergements {
-    width: 100%;
+   width: 100%;
     position: relative;
     left: 50%;
-    transform: translateX(-50%); /*centré dans l'élément parent*/
+   transform: translateX(-50%) ; /*centré dans l'élément parent*/
     margin-bottom: 20px;
     border-radius: 0;
   }
@@ -733,8 +736,6 @@ footer {
   #pluspopulaires {
     width: 100%;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
   }
 
