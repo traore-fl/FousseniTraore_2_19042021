@@ -1,4 +1,11 @@
-/* Police */
+
+html,
+body,
+form,
+ul,{
+  margin: 0;
+  padding: 0;
+}
 
 h1,
 h2,
@@ -15,7 +22,7 @@ p {
 /* Page */
 
 #blocpage {
-  width: 98%;
+  width: 100%;
   margin: auto; 
 }
 
@@ -567,22 +574,26 @@ footer {
   .titrefiltres {
     margin-bottom: 10px;
   }
-    
+  .titre {
+    font-size: 13px;
+  }
 
   .barreFiltre {
     flex: 50%;
     margin-bottom: 10px;
-    width: 152px;
+    width: 56%;
    
   }
 
   .fam {
     position: absolute;
-    margin: 34px 0 0 58%;
-    width: 40%;
+    margin: 34px 0 0 56%;
+    width: 38%;
    
   }
-
+  .anim {
+    width: 70%;
+  }
   /* Hébergements à Marseille et Les plus populaires */
 
   .hebergementetpop {
@@ -700,8 +711,6 @@ footer {
 
   .logosearch {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     margin-bottom: 5px;
     margin-top: -15px;
     display: flex;
@@ -744,8 +753,6 @@ footer {
   #Hebergements {
    width: 100%;
     position: relative;
-    left: 50%;
-   transform: translateX(-50%) ; /*centré dans l'élément parent*/
     margin-bottom: 20px;
     border-radius: 0;
   }
