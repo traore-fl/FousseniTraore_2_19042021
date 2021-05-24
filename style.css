@@ -1,3 +1,4 @@
+/* Paramètres Généraux */
 
 html,
 body,
@@ -19,7 +20,6 @@ p {
   font-family: "Raleway"; 
 }
 
-/* Page */
 
 #blocpage {
   width: 100%;
@@ -415,7 +415,7 @@ input {
 }
 
 .activite3img {
-  height: 110px;
+  height: 111px;
 }
 
 .activite5img {
@@ -423,7 +423,7 @@ input {
 }
 
 .activite6img {
-  height: 140px;
+  height: 167px;
 }
 
 .nomactivite {
@@ -435,7 +435,7 @@ input {
 }
 
 .Activite5 {
-  margin: 0px 0px 92px;
+  margin: 0px 0px 61px;
 }
 /* FOOTER */
 
