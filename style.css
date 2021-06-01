@@ -3,7 +3,7 @@
 html,
 body,
 form,
-ul,{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -12,18 +12,17 @@ h1,
 h2,
 h3,
 a {
-  font-family: "Raleway"; 
+  font-family: "Raleway";
   font-weight: bold;
 }
 
 p {
-  font-family: "Raleway"; 
+  font-family: "Raleway";
 }
-
 
 #blocpage {
   width: 100%;
-  margin: auto; 
+  margin: auto;
 }
 
 /* HEADER */
@@ -83,6 +82,9 @@ a {
   padding-left: 28px;
 }
 
+.contenu {
+  margin: 15px;
+}
 /* Phrase d'accroche */
 
 .subtext {
@@ -249,12 +251,10 @@ input {
   box-sizing: border-box;
   margin: 0 5px 20px 5px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-  transition: width 1s, height 1s, background-color 1s, transform 1s; 
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 .hotel:hover {
-
   transform: scale(1.05);
 }
 
@@ -314,14 +314,11 @@ input {
   margin: 0px 0px 20px 0px;
   height: 145px;
   box-shadow: 0 5px 16px #0000002e;
-  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 .hotelpop:hover {
-  /* L'image est zoomé au survol */
-
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .popimage {
@@ -389,7 +386,6 @@ input {
 }
 
 .Activite:hover {
-  /* L'image est zoomé au survol */ 
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -467,11 +463,9 @@ footer {
   font-weight: 500;
 }
 
-/*VERSION MOBILES*/
+/* VERSION MOBILES */
 
-@media screen and (min-width: 280px) and (max-width: 767px) /* SMARTPHONES */ {
-
-
+@media screen and (min-width: 280px) and (max-width: 768px) {
   h2 {
     font-size: 20px;
     font-weight: bold;
@@ -504,14 +498,14 @@ footer {
     margin-bottom: 20px;
   }
 
-  /* HEADER/ Menu */  
+  /* HEADER/ Menu */
 
-.heberacti{
-  display: flex;
-  margin-left: 10px;
-  margin-bottom: -60px; 
-  margin-right: -130px;
-  order: 1; 
+  .heberacti {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: -60px;
+    margin-right: -130px;
+    order: 1;
   }
   .inscrire {
     display: flex;
@@ -542,20 +536,20 @@ footer {
     padding-bottom: 5px;
   }
 
-  /*  Display bouton loupe */
-    
-    .logosearch{
-     width: 150%;    
-    }
-  
-    .loupelogo i {
+  /* Bouton loupe */
+
+  .logosearch {
+    width: 150%;
+  }
+
+  .loupelogo i {
     display: inline;
     color: white;
     background-color: #0065fc;
     padding: 18px;
     border-radius: 18px;
     position: relative;
-    right: 52px; 
+    right: 52px;
   }
 
   .boutonderecherche {
@@ -568,7 +562,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
   }
 
   .titrefiltres {
@@ -582,14 +575,12 @@ footer {
     flex: 50%;
     margin-bottom: 10px;
     width: 56%;
-   
   }
 
   .fam {
     position: absolute;
     margin: 34px 0 0 56%;
     width: 38%;
-   
   }
   .anim {
     width: 70%;
@@ -628,9 +619,9 @@ footer {
     margin: 8px;
     font-size: 14px;
   }
-    
+
   .etoilespop {
-  margin: 0px;
+    margin: 0px;
   }
 
   /* Les plus populaires */
@@ -649,13 +640,12 @@ footer {
     display: flex;
     height: auto;
     margin-bottom: 25px;
-    justify-content:center; 
+    justify-content: center;
   }
 
   .blocActivite {
     width: 100%;
     margin-top: 15px;
-
   }
 
   .Activite img {
@@ -665,17 +655,17 @@ footer {
 
   .Activite {
     margin-bottom: 30%;
-    height: 70px; 
+    height: 70px;
     margin-top: 15px;
   }
-    
-    .Activite2 {
-  margin: 10px 0px 100px 0px;
+
+  .Activite2 {
+    margin: 10px 0px 100px 0px;
   }
 
-    .Activite5 {
-  margin: 10px 0px 100px 0px;
- }
+  .Activite5 {
+    margin: 10px 0px 100px 0px;
+  }
   .nomactivite {
     padding: 8px 0px 5px 20px;
     border-radius: 0 0 1.25rem 1.25rem;
@@ -698,14 +688,12 @@ footer {
 
 /* VERSION TABLETTE */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) /* TABLETTE */ {
-  
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .subtext {
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-bottom: 15px;
   }
-    
 
   /* Formulaire de Recherche */
 
@@ -751,7 +739,7 @@ footer {
   /* Hébergements à Marseille */
 
   #Hebergements {
-   width: 100%;
+    width: 100%;
     position: relative;
     margin-bottom: 20px;
     border-radius: 0;
