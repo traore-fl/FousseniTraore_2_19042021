@@ -1,7 +1,4 @@
 /* Paramètres Généraux */
- /* * {
-  border: 2px solid;
-} * */
 
 html,
 body,
@@ -45,6 +42,7 @@ p {
 }
 .Logohaut {
   cursor: pointer;
+  margin-left: 20px;
 }
 
 header ul {
@@ -86,7 +84,7 @@ a {
 }
 
 .contenu {
-  margin: 15px;
+  margin: 25px;
 }
 /* Phrase d'accroche */
 
@@ -501,6 +499,10 @@ footer {
     margin-bottom: 20px;
   }
 
+  .Logohaut {
+    margin-left: 5px;
+  }
+
   /* HEADER/ Menu */
 
   .heberacti {
@@ -514,7 +516,7 @@ footer {
   .inscrire {
     display: flex;
     margin-bottom: 50px;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-top: 0px;
     order: 2;
   }
@@ -589,7 +591,7 @@ footer {
   .barreFiltre {
     flex: 50%;
     margin-bottom: 10px;
-    width: 53%;
+    width: 54%;
   }
 
   .imagefiltre {
@@ -679,7 +681,7 @@ footer {
   }
 
   .vieuxport {
-    margin-bottom: 100px;
+    margin-bottom: 93px;
   }
 
   .fortpom {
@@ -687,11 +689,11 @@ footer {
   }
 
   .ilesfrioul {
-    margin-bottom: 100px;
+    margin-bottom: 105px;
   }
 
   .parcnat {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 
   .notredam {
