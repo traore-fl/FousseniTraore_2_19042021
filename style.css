@@ -582,19 +582,19 @@ footer {
     margin-bottom: 10px;
   }
   .titre {
-    font-size: 13px;
-    padding-right: 0%;
-    padding-left: 0.3em;
+    font-size: 17px;
+    padding-right: 7%;
+    padding-left: 0.7em;
   }
 
   .barreFiltre {
     flex: 50%;
     margin-bottom: 10px;
-    width: 54%;
+    width: 53%;
   }
 
   .imagefiltre {
-    padding: 10px 10px;
+    padding: 12px 12px;
   }
 
   .fam {
@@ -603,7 +603,7 @@ footer {
     width: 34%;
   }
   .anim {
-    width: 70%;
+    width: 65%;
   }
   /* Hébergements à Marseille et Les plus populaires */
 
