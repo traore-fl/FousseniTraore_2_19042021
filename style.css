@@ -723,6 +723,24 @@ footer {
   }
 }
 
+
+@media screen and (max-width: 280px) {
+
+  .titre {
+    font-size: 11px;
+  }
+  input {
+    font-size: 13px;
+  }
+  .titresection {
+    font-size: 16px; 
+  } 
+  .anim {
+    width: 67%;
+  }
+}
+
+
 /* VERSION TABLETTE */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
