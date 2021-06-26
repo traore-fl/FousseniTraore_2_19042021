@@ -641,7 +641,7 @@ footer {
   }
 
   .etoilespop {
-    margin: 0px;
+    margin: 35px;
   }
 
   /* Les plus populaires */
@@ -723,9 +723,7 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 280px) {
-
   .titre {
     font-size: 11px;
   }
@@ -733,13 +731,15 @@ footer {
     font-size: 13px;
   }
   .titresection {
-    font-size: 16px; 
-  } 
+    font-size: 16px;
+  }
   .anim {
     width: 67%;
   }
+  .etoilespop {
+    margin: 0px;
+  }
 }
-
 
 /* VERSION TABLETTE */
 
